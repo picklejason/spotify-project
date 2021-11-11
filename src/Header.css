@@ -1,0 +1,17 @@
+.header {
+  margin-left: 20px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.header__name {
+  font-size: 5em;
+  padding-left: 0.3em;
+  color: white;
+}
+
+.header__image {
+  width: 12em;
+  height: 12em;
+  border-radius: 10em;
+}

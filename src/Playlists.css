@@ -1,0 +1,15 @@
+.playlist {
+  margin: 15px;
+}
+
+.playlist__name {
+  font-size: 24px;
+  color: white;
+}
+
+.playlist__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 5px;
+  object-fit: cover;
+}

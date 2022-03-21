@@ -39,12 +39,11 @@ function App() {
         })
       });
 
-      spotifyApi.getMyTopTracks({"limit" : 10, "time_range" : "short_term"}).then((tracks) => {
+      spotifyApi.getMyTopTracks({"limit" : 5, "time_range" : "short_term"}).then((tracks) => {
         dispatch({
           type: 'SET_TOP_TRACKS',
           topTracks: tracks
         })
-        // console.log(tracks.items);
       });
     }
   }, [dispatch]);
